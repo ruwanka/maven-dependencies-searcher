@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "com.plugin"
-version = "1.0.5"
+version = "1.0.6"
 
 repositories {
     maven("https://maven.aliyun.com/repository/central")
@@ -38,7 +38,7 @@ dependencies {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version = "2019.1.3"
+    version = "2020.1"
 }
 configure<JavaPluginConvention> {
     sourceCompatibility = JavaVersion.VERSION_1_8
@@ -47,7 +47,7 @@ tasks.getByName<org.jetbrains.intellij.tasks.PatchPluginXmlTask>("patchPluginXml
     
     version(project.version)
     sinceBuild("181.0")
-    untilBuild("192.*")
+    untilBuild("202.*")
 
 }
 tasks.withType<KotlinCompile> {

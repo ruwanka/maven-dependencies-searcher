@@ -3,9 +3,9 @@
     <name>Maven Dependencies Searcher</name>
     <vendor email="snsyzf@gmail.com" url="snsyzf@gmail.com">snsyzf</vendor>
 
-    <version>1.0.0</version>
+    <version>1.0.6</version>
 
-    <idea-version since-build="181.0" until-build="192.*"/>
+    <idea-version since-build="181.0" until-build="202.*"/>
 
     <depends>com.intellij.modules.lang</depends>
 
